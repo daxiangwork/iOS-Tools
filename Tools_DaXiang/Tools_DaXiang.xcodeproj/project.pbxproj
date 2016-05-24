@@ -62,6 +62,7 @@
 				0734949D1CF411A200D1318E /* AppDelegate.m */,
 				0734949F1CF411A200D1318E /* ViewController.h */,
 				073494A01CF411A200D1318E /* ViewController.m */,
+				073494B01CF4188C00D1318E /* Base */,
 				073494A21CF411A200D1318E /* Main.storyboard */,
 				073494A51CF411A200D1318E /* Assets.xcassets */,
 				073494A71CF411A200D1318E /* LaunchScreen.storyboard */,
@@ -77,6 +78,21 @@
 				0734949A1CF411A200D1318E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		073494B01CF4188C00D1318E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				073494B11CF4188C00D1318E /* Foundation */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		073494B11CF4188C00D1318E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +316,7 @@
 				073494AF1CF411A200D1318E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
